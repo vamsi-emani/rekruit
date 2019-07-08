@@ -1,5 +1,9 @@
 # rekruit - IT Resume screener. 
 
+## Main.groovy 
+Resume files in various formats such as (.pdf, .doc) under a given input directory are converted into text files and the output directory containining resume files in `.txt` format is passed as input to the python script.
+
+## script.py
 Uses regex and nltk library functions in tandem with known keywords to eliminate noise 
 and mine useful information from the resume that the employers would be interested in. 
 
